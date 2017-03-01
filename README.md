@@ -20,7 +20,7 @@ bash /home/pi/.ap/toggle_ap_wifi.sh
 exit 0
 ```
 
-### How to use
+### Using
 - re-write `~/.ap_mode`
   - if you want RaspberryPi3 to be `Access Point`, set `1`
   - if you want RaspberryPi3 to be `Wifi Client`, set `0`
