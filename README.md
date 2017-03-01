@@ -4,9 +4,8 @@
 
 ### Preparation
 ``` bash
-cd <this repository>
-mv .ap_mode ~/
-mv .ap/ ~/
+$ cd <this repository>
+$ bash setup.sh
 ```
 
 and add the following code to the end of `/etc/rc.local` (But before `exit 0`)
