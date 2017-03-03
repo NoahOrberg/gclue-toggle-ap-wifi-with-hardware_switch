@@ -24,9 +24,9 @@ exit 0
 ```
 
 ### Usage
-- re-write `~/.ap_mode`
-  - if you want RaspberryPi3 to be `Access Point`, set `1`
-  - if you want RaspberryPi3 to be `Wifi Client`, set `0`
+- Use SwitchBrick(#117)
+  - ON:  `Access Point`
+  - OFF: `Wifi Client`
 - `sudo reboot`
 
 
