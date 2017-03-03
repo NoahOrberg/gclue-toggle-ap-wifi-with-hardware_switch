@@ -10,7 +10,7 @@ $ bash ./setup.sh
 
 and Please connect GPIO5 to SwitchBrick(#117)
 
-if you wanna use other GPIO PIN, you can modyify `~/.ap/toggle_sw.py` :)
+if you wanna use other GPIO PIN, you can modify `~/.ap/toggle_sw.py` :)
 
 and add the following code to the end of `/etc/rc.local` (But before `exit 0`)
 
