@@ -1,4 +1,4 @@
-# gclue-toggle-ap-wifi
+# gclue-toggle-ap-wifi-with-hardware_switch
 
 - Easy switch betwen AP(Access Point) and Wifi client.
 
@@ -10,10 +10,13 @@ $ bash ./setup.sh
 
 and add the following code to the end of `/etc/rc.local` (But before `exit 0`)
 
+and Please connect GPIO5 to SwitchBrick(#117)
+
 ``` bash
 ...
 
 ##### add this code
+python /home/pi/.ap/toggle.py
 bash /home/pi/.ap/toggle_ap_wifi.sh
 #####
 
