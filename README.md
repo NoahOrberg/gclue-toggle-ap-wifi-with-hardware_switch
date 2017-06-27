@@ -1,4 +1,4 @@
-# gclue-toggle-ap-wifi-with-hardware_switch
+# toggle-ap-wifi-with-hardware_switch
 
 - Easy switch betwen AP(Access Point) and Wifi client.
 
